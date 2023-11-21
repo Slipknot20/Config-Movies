@@ -12,7 +12,7 @@ spring:
   application:
     name: movie-service
 queu:
-  serie:
+  movie:
     name: AgregarMovieQueu
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
