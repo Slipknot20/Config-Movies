@@ -11,6 +11,9 @@ spring:
       enabled: true
   application:
     name: movie-service
+queu:
+  serie:
+    name: AgregarMovieQueu
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3370/movie-dev
