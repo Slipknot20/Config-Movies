@@ -9,6 +9,9 @@ spring:
       enabled: true
   application:
     name: serie-service
+queu:
+  serie:
+    name: AgregarSerieQueu
   mongodb:
     embedded:
       version: 4.0.2
