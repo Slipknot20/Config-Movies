@@ -2,6 +2,11 @@ server:
   port: 0
 
 spring:
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
   zipkin:
       base-uri: http://localhost:9411/
       enabled: true
