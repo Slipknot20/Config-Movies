@@ -1,4 +1,9 @@
 spring:
+  zipkin:
+      base-uri: http://localhost:9411/
+      enabled: true
+  application:
+    name: serie-service
   mongodb:
     embedded:
       version: 4.0.2
