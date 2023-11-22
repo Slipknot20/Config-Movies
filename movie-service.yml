@@ -11,7 +11,7 @@ spring:
       enabled: true
   application:
     name: movie-service
-queu:
+queue:
   movie:
     name: AgregarMovieQueu
   datasource:
