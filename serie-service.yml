@@ -9,7 +9,7 @@ spring:
       enabled: true
   application:
     name: serie-service
-queu:
+queue:
   serie:
     name: AgregarSerieQueu
   mongodb:
